@@ -1,0 +1,60 @@
+:global {
+  #root {
+    height: 100%;
+  }
+}
+.demo-container {
+  height: 100%;
+  .header {
+    height: 100px;
+  }
+  .index_page {
+    overflow: hidden;
+    height: 100%;
+    :global {
+      .react-grid-layout {
+        // height: 100%;
+        // background-color: #666;
+        // border: 1px solid #eee;
+        .react-grid-item {
+          // border: 1px solid #eee;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          // background: chocolate;
+        }
+      }
+    }
+  }
+}
+
+.container,
+.demo-container {
+  height: 100%;
+  background-color: aliceblue;
+  background-image: url(../../../public/footer.png);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.title {
+  text-align: center;
+  font-size: 30px;
+}
+.body {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  div {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+  }
+}
+.footer {
+  display: flex;
+  padding: 40px;
+  justify-content: space-between;
+}

@@ -3,6 +3,31 @@
     height: 100%;
   }
 }
+.demo-container {
+  height: 100%;
+  background-color: aliceblue;
+  background-image: url(../../../public/footer.png);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  .header {
+    height: 100px;
+  }
+  .index_page {
+    overflow: hidden;
+    height: 100%;
+    :global {
+      .react-grid-layout {
+        .react-grid-item {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          // background: chocolate;
+        }
+      }
+    }
+  }
+}
 .container {
   height: 100%;
   background-color: aliceblue;

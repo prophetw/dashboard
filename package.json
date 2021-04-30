@@ -27,6 +27,7 @@
     "@umijs/preset-react": "1.x",
     "lodash": "^4.17.21",
     "react-grid-layout": "^1.2.4",
+    "react-pageflip": "^2.0.3",
     "umi": "^3.4.13"
   },
   "devDependencies": {
